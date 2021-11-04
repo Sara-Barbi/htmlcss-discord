@@ -120,10 +120,14 @@ a{
     width: 50%;  
 }
 .boxdxdiv img{
-     width: 100%;
-     position: center;
+    width: 100%;
+    position: center;
 }
 ul a:hover{
     background-color: skyblue;
     color: black;
+}
+.affidabilità{
+    text-align: center;
+
 }
