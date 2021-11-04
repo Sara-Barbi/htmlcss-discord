@@ -129,5 +129,11 @@ ul a:hover{
 }
 .affidabilità{
     text-align: center;
-
+}
+.boox{
+    width: 80%;
+    margin: 0 auto;
+}
+.booximg img{
+    width: 100%;
 }
