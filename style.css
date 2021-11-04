@@ -13,22 +13,45 @@ header{
     height:70px;
     background-color: blue;
 }
+.container{
+    line-height: 70px;
+    width: 80%;
+    margin:0 auto;
+    font-size: 13px;
+}
 .logo{
     float: left;
     display: inline-block;
 }
 .discord{
-    line-height: 70px;
     vertical-align: middle;
-    display: inline-block;
 }
 nav{
     display: inline-block;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
 }
 nav li{
     list-style:none;
+    margin:0 10px;
     display: inline-block;
 }
-.accedi{
+.accedi{ 
     display: inline-block;
+}
+a.btn{
+    color: black;
+    background-color: white;
+    border-radius:15px;
+    padding: 5px 10px;
+}
+nav a{
+     color: honeydew;
+}
+a{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: cadetblue;
 }
