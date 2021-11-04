@@ -6,7 +6,7 @@
 
 body{
     font-family: Arial ;
-    font-size: 20px;
+    font-size: 13px;
 }
 header{
     width:100%;
@@ -81,4 +81,30 @@ a{
 .button2{
     background-color: black;
     color: blanchedalmond;
+}
+.button1:hover{
+    background-color:rgb(108, 108, 110, 0.3);
+
+}
+.button2:hover{
+    background-color:rgba(100, 100, 168, 0.3); 
+
+}
+.boxsx{
+    width: 50%;
+}
+.boxsx img{
+    width: 100%;
+}
+.recipiente{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.recipiente div{
+    display: inline-block;
+}
+.boxdx{
+    width: 20%;
+    margin-left: 50px;
 }
