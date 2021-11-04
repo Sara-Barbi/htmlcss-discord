@@ -129,6 +129,7 @@ ul a:hover{
 }
 .affidabilità{
     text-align: center;
+    margin-bottom: 30px;
 }
 .boox{
     width: 80%;
@@ -136,4 +137,17 @@ ul a:hover{
 }
 .booximg img{
     width: 100%;
+}
+.avventuraimg{
+    width: 80%;
+    margin: 0 auto;
+}
+.avventura{
+    
+}
+#stelline{
+    
+}
+.avventura img{ 
+
 }
