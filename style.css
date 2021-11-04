@@ -140,13 +140,6 @@ ul a:hover{
 .booximg img{
     width: 100%;
 }
-.avventuraimg{
-
-        
-}
-.avventuraimg img{
-
-}
 .avventura{
     text-align: center;
     font-size: 12px; 
@@ -193,16 +186,33 @@ ul a:hover{
     display: inline-block;
     width
 }
+
 .principal{
-    width:27%;
+    width: 27%;
+    float: left;
+    top: 50px;
+    left: 0px;
+    transform: translate(10px, 50px);
+}
+.principal::after{
+    clear: both;
+    display: table;
+    content: "";
 }
 .secondary{
-    width: 17%;  
+    width: 17%; 
+    float: left;
+    top: 50px;
+    left: 0px; 
 }
-.principal h2{
-    margin-top:50px;
+.secondary:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.title{
     margin-bottom: 30px;
-    font-size: 25px;
+    font-size: 30px;
     color: violet;
 }
 .principal img{
@@ -225,10 +235,11 @@ i {
 .secondary{
     color: white;
     font-size: 15px;
+    margin-top: 50px;
 }
 .secondary li{
     list-style: none;
-    
+    margin-top: 15px ; 
 }
 
 
