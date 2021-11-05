@@ -217,15 +217,17 @@ ul a:hover{
     vertical-align: middle;
 }
 .icons{
-    width: 80%;
+    color: cornsilk;
 }
 i {
-    color: white;
 }
 .secondary{
     color: white;
     font-size: 15px;
     margin-top: 50px;
+}
+.secondary li:hover{
+    color: darkmagenta;
 }
 .secondary li{
     list-style: none;
@@ -259,5 +261,13 @@ i {
 }
 .btnh:hover{
     background-color: cadetblue;
+}
+.icons i{
+    margin: 0 5px;
+    display: inline-block;
+
+}
+.principal span:hover{
+    color: darkmagenta;
 
 }
