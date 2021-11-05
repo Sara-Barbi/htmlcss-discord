@@ -194,25 +194,15 @@ ul a:hover{
     left: 0px;
     transform: translate(10px, 50px);
 }
-.principal::after{
-    clear: both;
-    display: table;
-    content: "";
-}
 .secondary{
     width: 17%; 
     float: left;
     top: 50px;
     left: 0px; 
 }
-.secondary:after{
-    clear: both;
-    content: "";
-    display: table;
-}
 .title{
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 32px;
     color: violet;
 }
 .principal img{
@@ -241,5 +231,33 @@ i {
     list-style: none;
     margin-top: 15px ; 
 }
+.logobottom{
 
+}
+.divisorio{
+    border: 1px solid blueviolet;
+    margin: 30px 0;
+}
+.bloccoscritte::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.registra{
+    float: right;
+}
+.btnh{
+    color: rgb(252, 248, 248);
+    background-color: rgb(103, 145, 235);
+    border-radius:15px;
+    padding: 5px 10px;
+}
+.registra::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.btnh:hover{
+    background-color: cadetblue;
 
+}
